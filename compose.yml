@@ -1,0 +1,6 @@
+services:
+
+  node:
+    build: ./ # Construire l'image Docker à partir du Dockerfile présent dans le répertoire de l'application dans le conteneur
+    ports:
+      - 8000:80 # Mapper le port 8000 de l'hote au port 80 du conteneur
